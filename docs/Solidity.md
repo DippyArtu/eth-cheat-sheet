@@ -1,6 +1,6 @@
 # Solidity 🔮
 
-- [[Web3.js]] 🕸️
+- [Web3.js 🕸️](https://github.com/DippyArtu/eth-cheat-sheet/blob/main/docs/Web3.js.md)
 ---
 
 -	[Structs](#Structs)

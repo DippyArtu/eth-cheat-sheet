@@ -1,10 +1,9 @@
 # Solidity 🔮
-#cs #langs #eth
 
 - [[Web3.js]] 🕸️
 ---
 
--	[[#Structs]]
+-	(#Structs)
 -	[[#Arrays]]
 -	[[#Events]]
 -	[[#Mapping]]

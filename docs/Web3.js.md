@@ -1,15 +1,19 @@
 # Web3.js 🕸️
-#cs #langs #eth
 
-- [[Solidity]] 🔮
-
----
-
-
+- [Solidity 🔮](https://github.com/DippyArtu/eth-cheat-sheet/blob/main/docs/Solidity.md)
 
 ---
 
-## Web3 Providers
+- [Web3 Providers](#Web3_Providers)
+- [Communication with contracts](#Communication_with_contracts)
+- [Calling contract functions](#Calling_contract_functions)
+- [Metamask Accounts](#Metamask_Accounts)
+- [Calling Payable Functions](#Calling_Payable_Functions)
+- [Subscribing to Events](#Subscribing_to_Events)
+
+---
+
+## Web3_Providers
 
 Provider is an Etherium *node* which is used by the Dapp to pull blockchain data from
 
@@ -46,7 +50,7 @@ window.addEventListener('load', function() {
 })
 ```
 
-## Communication with contracts
+## Communication_with_contracts
 
 - Web.js requires:
 	- contract `address`
@@ -59,7 +63,7 @@ After the contract is compiled and deployed, include ABI in project and instanti
 var myContract = new web3js.eth.Contract(myABI, myContractAddress);
 ```
 
-## Calling contract functions
+## Calling_contract_functions
 
 #### Call
 
@@ -155,7 +159,7 @@ function createRandomZombie(name) {
 - `error` will fire if there's an issue that prevented the transaction from being included in a block
 - You can optionally specify `gas` and `gasPrice` when you call `send`, e.g. `.send({ from: userAccount, gas: 3000000 })`. If you don't specify this, MetaMask will let the user choose these values
 
-## Metamask & Accounts
+## Metamask_&_Accounts
 
 Getting the currently active account on the injected `web3` variable:
 
@@ -176,7 +180,7 @@ var accountInterval = setInterval(function() {
 }, 100);
 ```
 
-## Calling Payable Functions
+## Calling_Payable_Functions
 
 ```
 // This will convert 1 ETH to Wei
@@ -201,7 +205,7 @@ cryptoZombies.methods.levelUp(zombieId)
 .send({ from: userAccount, value: web3js.utils.toWei("0.001", "ether") })
 ```
 
-## Subscribing to Events
+## Subscribing_to_Events
 
 Solidity event example:
 ```
@@ -249,10 +253,3 @@ cryptoZombies.getPastEvents("NewZombie", { fromBlock: 0, toBlock: "latest" })
   // This code will get us a list of every zombie that was ever created
 });
 ```
-
-
-
----
-
-- [[Web3.js | TOP]]⬆️
-- [[Solidity | BACK]] ⬅️

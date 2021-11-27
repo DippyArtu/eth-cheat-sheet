@@ -10,14 +10,14 @@
 -	[msg.sender](#msg.sender)
 -	[require](#require)
 -	[Inheritance](#Inheritance)
--	[Storage vs Memory (Data location)](#Storage_vs_Memory_(Data_location))
+-	[Storage vs Memory (Data location)](#Storage_vs_Memory)
 -	[Interface](#Interface)
--	[Multiple returns](#Multiple returns)
--	[Ownable contract](#Ownable contract)
--	[Time units](#Time units)
--	[Function Modifiers](#Function Modifiers)
--	[Random numbers](#Random numbers)
--	[ERC721 Standart](#ERC721 Standart)
+-	[Multiple returns](#Multiple_returns)
+-	[Ownable contract](#Ownable_contract)
+-	[Time units](#Time_units)
+-	[Function Modifiers](#Function_Modifiers)
+-	[Random numbers](#Random_numbers)
+-	[ERC721 Standart](#ERC721_Standart)
 -	[SafeMath](#SafeMath)
 
 
@@ -153,7 +153,7 @@ contract BabyDoge is Doge {
 }
 ```
 
-## Storage_vs_Memory_(Data_location)
+## Storage_vs_Memory
 
 -// Storage refers to variables stored permanently on the blockchain
 	
@@ -245,7 +245,7 @@ contract MyContract {
 }
 ```
 
-## Multiple returns
+## Multiple_returns
 
 ```
 function multipleReturns() internal returns(uint a, uint b, uint c) {
@@ -268,7 +268,7 @@ function getLastReturnValue() external {
 }
 ```
 
-## Ownable contract
+## Ownable_contract
 
 -// OpenZeppelin contract
 	
@@ -282,7 +282,7 @@ function getLastReturnValue() external {
 
 -// Only the owner of the contract can call that function
 	
-## Time units
+## Time_units
 
 -// The variable `now` will return the current unix timestamp of the latest block
 	
@@ -303,7 +303,7 @@ return (now >= (lastUpdated + 5 minutes));
 }
 ```
 
-## Function Modifiers
+## Function_Modifiers
 
 #### Visibility modifiers
 
@@ -376,7 +376,7 @@ function driveCar(uint _userId) public olderThan(16, _userId) {
 }
 ```
 
-## Random numbers
+## Random_numbers
 
 **Not safe**
 
@@ -396,7 +396,7 @@ uint random2 = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 1
 
 - [Generating random numbers in Etherium](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 
-## ERC721 Standart
+## ERC721_Standart
 
 ```
 contract ERC721 {
@@ -424,4 +424,4 @@ uint256 c = a.mul(2); // 5 * 2 = 10
 
 ---
 
--	[[#Solidity 🔮 | Top]] ⬆️
+-	[Top ⬆️](#Solidity)

@@ -10,7 +10,7 @@
 -	[msg.sender](#msg.sender)
 -	[require](#require)
 -	[Inheritance](#Inheritance)
--	[Storage vs Memory Data location](#Storage vs Memory (Data location))
+-	[Storage vs Memory (Data location)](#Storage vs Memory (Data location))
 -	[Interface](#Interface)
 -	[Multiple returns](#Multiple returns)
 -	[Ownable contract](#Ownable contract)

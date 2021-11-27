@@ -4,21 +4,21 @@
 ---
 
 -	[Structs](#Structs)
--	[[#Arrays]]
--	[[#Events]]
--	[[#Mapping]]
--	[[#msg sender]]
--	[[#require]]
--	[[#Inheritance]]
--	[[#Storage vs Memory Data location]]
--	[[#Interface]]
--	[[#Multiple returns]]
--	[[#Ownable contract]]
--	[[#Time units]]
--	[[#Function Modifiers]]
--	[[#Random numbers]]
--	[[#ERC721 Standart]]
--	[[#SafeMath]]
+-	[Arrays](#Arrays)
+-	[Events](#Events)
+-	[Mapping](#Mapping)
+-	[msg sender](#msg sender)
+-	[require](#require)
+-	[Inheritance](#Inheritance)
+-	[Storage vs Memory Data location](#Storage vs Memory Data location)
+-	[Interface](#Interface)
+-	[Multiple returns](#Multiple returns)
+-	[Ownable contract](#Ownable contract)
+-	[Time units](#Time units)
+-	[Function Modifiers](#Function Modifiers)
+-	[Random numbers](#Random numbers)
+-	[ERC721 Standart](#ERC721 Standart)
+-	[SafeMath](#SafeMath)
 
 
 ---

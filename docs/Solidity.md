@@ -10,7 +10,7 @@
 -	[msg.sender](#msg.sender)
 -	[require](#require)
 -	[Inheritance](#Inheritance)
--	[Storage vs Memory (Data location)](#Storage vs Memory (Data location))
+-	[Storage vs Memory (Data location)](#Storage_vs_Memory_(Data_location))
 -	[Interface](#Interface)
 -	[Multiple returns](#Multiple returns)
 -	[Ownable contract](#Ownable contract)
@@ -153,7 +153,7 @@ contract BabyDoge is Doge {
 }
 ```
 
-## Storage vs Memory (Data location)
+## Storage_vs_Memory_(Data_location)
 
 -// Storage refers to variables stored permanently on the blockchain
 	

@@ -3,7 +3,7 @@
 - [[Web3.js]] 🕸️
 ---
 
--	(#Structs)
+-	[Structs](#Structs)
 -	[[#Arrays]]
 -	[[#Events]]
 -	[[#Mapping]]
